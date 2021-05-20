@@ -47,6 +47,7 @@ total2=str(total2)
 Love_score=int(total1+total2)
 #print(f"Your score is {Love_score}.")
 
+## https://stackoverflow.com/questions/4806911/string-comparison-technique-used-by-python
 if Love_score < 10 or Love_score > 90:
   print(f"Your score is {Love_score},you are together like coke and mentos.")
 elif Love_score >= 40 and Love_score <= 50:
