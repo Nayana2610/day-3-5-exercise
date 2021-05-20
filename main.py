@@ -41,15 +41,15 @@ print(f"total_love = {total2}")
 #print(type(total1))
 #print(type(total2))
 
-total1=str(total1)
-total2=str(total2)
+total1=int(total1)
+total2=int(total2)
 
 Love_score=(total1+total2)
 #print(f"Your score is {Love_score}.")
 
-if Love_score < "10" or Love_score >"90":
+if Love_score < 10 or Love_score > 90:
   print(f"Your score is {Love_score},you are together like coke and mentos.")
-elif Love_score >= "40" and Love_score <= "50":
+elif Love_score >= 40 and Love_score <= 50:
   print(f"Your score is {Love_score},you are alright together.")
 else:
   print(f"Your score is {Love_score}.")
