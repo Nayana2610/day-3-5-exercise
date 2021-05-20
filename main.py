@@ -41,10 +41,10 @@ print(f"total_love = {total2}")
 #print(type(total1))
 #print(type(total2))
 
-total1=int(total1)
-total2=int(total2)
+total1=str(total1)
+total2=str(total2)
 
-Love_score=(total1+total2)
+Love_score=int(total1+total2)
 #print(f"Your score is {Love_score}.")
 
 if Love_score < 10 or Love_score > 90:
